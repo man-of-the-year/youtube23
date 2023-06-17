@@ -1,8 +1,13 @@
-function App() {
+import { Hero, Who, Works, Contact } from "./components"
+
+const App = () => {
 
   return (
-    <div>
-      Hello world!
+    <div className="">
+      <Hero />
+      <Who />
+      <Works />
+      <Contact />
     </div>
   )
 }
